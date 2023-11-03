@@ -72,7 +72,19 @@ sudo systemctl restart frps
 sudo systemctl stop frps
 # 停止服务
 ```
-
+### frpc相关命令
+```shell
+sudo systemctl start frpc
+# 启动服务 
+sudo systemctl enable frpc
+# 开机自启
+sudo systemctl status frpc
+# 状态查询
+sudo systemctl restart frpc
+# 重启服务
+sudo systemctl stop frpc
+# 停止服务
+```
 ### docker 部署
 为避免因 **frps.ini** 文件的挂载,格式或者配置的错误导致容器无法正常运行并循环重启.请确保先配置好 **frps.ini** 后在执行启动.
 
@@ -102,10 +114,3 @@ docker restart frps
 # 重启 frps 容器即可生效
 ```
 
-## 链接
-- Blog [www.ioiox.com](https://www.ioiox.com)
-- GitHub [3981877/frps](https://github.com/3981877/frps)
-- Docker Hub [3981877/frps](https://hub.docker.com/r/3981877/frps)
-- Docker [docker.ioiox.com](https://docker.ioiox.com)
-- 原版frp项目 [fatedier/frp](https://github.com/fatedier/frp)
-- [CentOS 7 安装配置frp内网穿透服务器端教程](https://www.ioiox.com/archives/5.html)
