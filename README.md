@@ -85,6 +85,29 @@ sudo systemctl restart frpc
 sudo systemctl stop frpc
 # 停止服务
 ```
+
+```
+tar.gz文件解压缩
+1.压缩命令:
+linux系统
+
+tar -zcvf 压缩文件名.tar.gz 被压缩文件名
+
+Windows系统
+
+tar -cf 压缩文件名.tar.gz 被压缩文件目录名
+
+2.解压缩命令：
+linux系统
+
+tar -zxvf 压缩文件名.tar.gz
+
+Windows系统
+
+tar -xf 压缩文件名.tar.gz
+
+```
+
 ### docker 部署
 为避免因 **frps.ini** 文件的挂载,格式或者配置的错误导致容器无法正常运行并循环重启.请确保先配置好 **frps.ini** 后在执行启动.
 
