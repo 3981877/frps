@@ -3,7 +3,6 @@
 基于 [fatedier/frp](https://github.com/fatedier/frp) 原版 frp 内网穿透服务端 frps 的一键安装卸载脚本和 docker 镜像.支持 Linux 服务器和 docker 等多种环境安装部署.
 
 - GitHub [3981877/frps](https://github.com/3981877/frps)
-- Docker [3981877/frps](https://hub.docker.com/r/3981877/frps)
 > *docker image support for X86 and ARM*
 
 ## 更新
