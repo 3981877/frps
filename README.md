@@ -70,6 +70,8 @@ sudo systemctl restart frps
 # 重启服务
 sudo systemctl stop frps
 # 停止服务
+systemctl daemon-reload
+# 重新加载
 ```
 ### frpc相关命令
 ```shell
